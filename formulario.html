@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pesquisa</title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de satisfação</h1>
+    </header>
+    <main>
+            
+            <form action="pagina_destino.html" method="post">
+                <div>
+                    <h2>Dados Pessoais</h2>
+                    <p>
+                        <label for="nome">Nome: </label>
+                        <input type="text" placeholder="Seu nome" id="nome">
+                    </p>
+                    <p>
+                        <label for="email">E-mail: </label>
+                        <input type="email" placeholder="Seu E-mail " id="email">
+                    </p>
+                    <p>
+                        <label for="numero">Contato: </label>
+                        <input type="number" placeholder="Seu número de telefone " id="numero">
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Pesquisa</h2>
+
+                    <h3>Gênero:</h3>
+                    <p>
+                        <label for="homem">Homem: </label>
+                        <input type="radio" id="homem" name="genero">
+                    </p>
+                    <p>
+                        <label for="mulher">Mulher: </label>
+                        <input type="radio" id="mulher" name="genero">
+                    </p>
+                    <p>
+                        <label for="naodeclarar">Prefiro não declarar: </label>
+                        <input type="radio" id="naodeclarar" name="genero">
+                    </p>
+
+                    <label for="estado"><h3>Estado-IF: </h3></label>
+                    <select id="estado">
+                        <option >AC</option>
+                        <option >AL</option>
+                        <option >AP</option>
+                        <option >AM</option>
+                        <option >BA</option>
+                        <option >CE</option>
+                        <option >DF</option>
+                        <option >ES</option>
+                        <option >GO</option>
+                        <option >MA</option>
+                        <option >MT</option>
+                        <option >MS</option>
+                        <option >MG</option>
+                        <option >PA</option>
+                        <option >PB</option>
+                        <option >PR</option>
+                        <option >PE</option>
+                        <option >PI</option>
+                        <option >RJ</option>
+                        <option >RN</option>
+                        <option >RS</option>
+                        <option >RO</option>
+                        <option >RR</option>
+                        <option >SC</option>
+                        <option >SP</option>
+                        <option >SE</option>
+                        <option >TO</option>
+                    </select>
+                    <p>
+                        <h3>Qual a melhor marca de achocoladados?</h3>
+                        <p>
+                        <label for="toddy">Toddy: </label>
+                        <input type="radio" id="toddy" name="achocoladado">
+                    </p>
+                    <p>
+                        <label for="nescau">Nescau: </label>
+                        <input type="radio" id="nescau" name="achocoladado">
+                    </p>
+                    </p>
+                </div>
+                <p>
+                    <label for="termos">Autorizo compartilhar minhas respostas com terceiros: </label>
+                    <input type="checkbox" id="termos">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+
+            </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
