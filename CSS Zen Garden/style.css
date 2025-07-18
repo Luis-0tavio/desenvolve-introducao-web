@@ -1,0 +1,24 @@
+/* Paleta: Background: #ffc9aa, Texto: #c44242 e  Destaque: #012623 */
+
+html {
+	background-color: #ffc9aa;
+	color: #c44242;
+}
+h1{
+	color: #012623
+}
+h2{
+	color: #012623;
+}
+h3{
+	color: #012623;
+}
+a{
+	color: #012623
+}
+a:hover{
+	color: #c44242;
+}
+abbr:hover{
+	color: #012623;
+}
