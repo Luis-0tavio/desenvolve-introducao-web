@@ -1,0 +1,50 @@
+/* Paleta: Background: #ffeee5, Texto: #c44242 e  Destaque: #012623 */
+
+html {
+	background-color: #fff4ee;
+	color: #c44242;
+	font-size: 20px;
+	font-family: 'sans-serif';
+}
+p{
+	text-indent: 1em;
+}
+h1{
+	text-align: center;
+	font-size: 1.8em;
+	color: #012623
+}
+h2{
+	text-align: center;
+	font-size: 1.4em;
+	color: #012623;
+}
+h3{
+	text-align: center;
+	font-size: 1.2em;
+	color: #012623;
+}
+.summary {
+	text-align: center;
+}
+.main p {
+	line-height: 1.5;
+}
+
+abbr{
+	font-variant: small-caps;
+}
+
+
+
+
+
+abbr:hover{
+	color: #012623;
+}
+a{
+	color: #012623
+}
+a:hover{
+	color: #c44242;
+}
